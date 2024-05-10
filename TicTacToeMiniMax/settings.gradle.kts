@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "TicTacToeMiniMax"
 include(":app")
+ 
