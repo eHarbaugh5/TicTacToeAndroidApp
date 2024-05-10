@@ -7,10 +7,34 @@
     tools:context=".TwoPlayer">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_v_TwoPlayer_gameBoard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tictactoeboard" />
+
+    <ImageView
+        android:id="@+id/btn_v_TwoPlayer_location0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintEnd_toEndOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintTop_toTopOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintVertical_bias="0.04000002"
+        app:srcCompat="@drawable/tictactoex" />
+
+    <Button
+        android:id="@+id/btn_v_PlayerTwo_toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_v_TwoPlayer_gameBoard" />
 </androidx.constraintlayout.widget.ConstraintLayout>
