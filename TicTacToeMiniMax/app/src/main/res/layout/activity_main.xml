@@ -10,6 +10,8 @@
         android:id="@+id/img_v_MainActivity_ticTacToeBoard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -20,13 +22,15 @@
 
     <Button
         android:id="@+id/btn_v_MainActivity_startTwoPlayer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="96dp"
+        android:layout_height="89dp"
         android:text="Two Player"
-        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_v_MainActivity_ticTacToeBoard"
-        app:layout_constraintVertical_bias="0.482" />
+        app:layout_constraintTop_toTopOf="@+id/img_v_MainActivity_ticTacToeBoard"
+        app:layout_constraintVertical_bias="0.567" />
 </androidx.constraintlayout.widget.ConstraintLayout>

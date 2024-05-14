@@ -29,12 +29,130 @@
         app:srcCompat="@drawable/tictactoex" />
 
     <Button
-        android:id="@+id/btn_v_PlayerTwo_toggleButton"
+        android:id="@+id/btn_v_PlayerTwo_resetGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Toggle Visible"
+        android:text="Reset Game"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_v_TwoPlayer_gameBoard" />
+        app:layout_constraintTop_toBottomOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <Button
+        android:id="@+id/btn_v_PlayerTwo_goToMainActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_v_PlayerTwo_resetGame"
+        app:layout_constraintVertical_bias="0.354" />
+
+    <ImageView
+        android:id="@+id/btn_v_TwoPlayer_location1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintEnd_toEndOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintStart_toStartOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintTop_toTopOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintVertical_bias="0.04"
+        app:srcCompat="@drawable/tictactoex" />
+
+    <ImageView
+        android:id="@+id/btn_v_TwoPlayer_location2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintEnd_toEndOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintTop_toTopOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintVertical_bias="0.04"
+        app:srcCompat="@drawable/tictactoex" />
+
+    <ImageView
+        android:id="@+id/btn_v_TwoPlayer_location3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintEnd_toEndOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintTop_toTopOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintVertical_bias="0.495"
+        app:srcCompat="@drawable/tictactoex" />
+
+    <ImageView
+        android:id="@+id/btn_v_TwoPlayer_location4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintEnd_toEndOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintStart_toStartOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintTop_toTopOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintVertical_bias="0.495"
+        app:srcCompat="@drawable/tictactoex" />
+
+    <ImageView
+        android:id="@+id/btn_v_TwoPlayer_location5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintEnd_toEndOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintHorizontal_bias="0.959"
+        app:layout_constraintStart_toStartOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintTop_toTopOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintVertical_bias="0.495"
+        app:srcCompat="@drawable/tictactoex" />
+
+    <ImageView
+        android:id="@+id/btn_v_TwoPlayer_location6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintEnd_toEndOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintTop_toTopOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintVertical_bias="0.963"
+        app:srcCompat="@drawable/tictactoex" />
+
+    <ImageView
+        android:id="@+id/btn_v_TwoPlayer_location7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintEnd_toEndOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintStart_toStartOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintTop_toTopOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintVertical_bias="0.963"
+        app:srcCompat="@drawable/tictactoex" />
+
+    <ImageView
+        android:id="@+id/btn_v_TwoPlayer_location8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintEnd_toEndOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintHorizontal_bias="0.959"
+        app:layout_constraintStart_toStartOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintTop_toTopOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintVertical_bias="0.963"
+        app:srcCompat="@drawable/tictactoex" />
+
+    <TextView
+        android:id="@+id/tv_v_TwoPlayer_winnerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X Is The Winner!"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_v_TwoPlayer_gameBoard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
